@@ -4,10 +4,6 @@
 }  이상의 경우 아까 배운 것처럼 2번 라인은 무시되고 3번 라인의 text-shadow 값이 적용되는 것을 확인 할 수 있다.
 그림자 속성은 중첩적으로 넣는 것은 불가능한가? 
 불가능한건 아니고 이때 속성값으로 ','가 들어간다  */
-p{
-  text-shadow: 
-  1px 1px yellow,
-  2px 0px red, 
-  1px 1px yellow;
-
-}
+p {
+  text-shadow: 1px 1px yellow, 2px 0px red, 1px 1px yellow;
+} 
