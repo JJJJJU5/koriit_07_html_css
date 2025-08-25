@@ -1,0 +1,13 @@
+ul > li {
+  border-bottom: solid 1px black;
+}
+
+ul > li:last-child{
+  border: solid 0px black;
+}
+
+/* ul > li:not(:first-child){  
+  border: solid 0px black;
+} */
+/* nth-child(1)로 고쳐써도 상관이 없음 */
+

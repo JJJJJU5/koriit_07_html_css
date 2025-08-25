@@ -1,0 +1,15 @@
+.outer {
+  width: 200px;
+  height: 200px;
+  border-radius: 50%;
+  overflow: hidden; /*자식 요소(inner)가 부모 요소 (outer)보다 클 경우 가려주는 키워드인 overflow : hidden;을 적용*/
+  display: inline-block;
+  background-color: gray;
+  border: solid 5px black;
+}
+.inner {
+  height: 100%;
+  background-image: url(../leaning_log/Gemini_Generated_Image_c524cac524cac524.png);
+  background-position: center;
+  background-size: cover;
+}
